@@ -1,1 +1,2 @@
-print ("Olá Mundo \nHello world")
+print ("Olá Mundo", "\nHello world")
+print ("Olá")
