@@ -22,8 +22,3 @@ print(num1/num2)
 print(num1//num2)
 print(num1%num2)
 print(num1**num2)
-
-#Exercicio 07
-
-
-#Exercicio 08
