@@ -49,7 +49,8 @@ def multiplicar(a, b):
 def dividir(a, b):
     if b == 0:
         return "Erro: divisão por zero!"
-    a / b
+    else:
+       return a / b
 
 # Menu de escolha
 print("Calculadora Simples")
