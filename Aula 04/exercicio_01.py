@@ -33,14 +33,10 @@ num1 = [1,2,3,4,5,6,7,8]
 
 cont_num1 = len(num1)
 
-x = 0
-y = 0
-while x in range(cont_num1):
+for x in range(cont_num1):
     
-    valor = num1[y] * 5
-    break
-
-y = y =+1
+    valor = num1[x]
+    
 
 print(valor)
 
