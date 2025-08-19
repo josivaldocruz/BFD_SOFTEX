@@ -20,4 +20,5 @@ teste2 = {}
 print(type(teste))
 print(type(teste2))
 
-teste.add
+teste.intersection
+#intercect de duas listas ou tuple
