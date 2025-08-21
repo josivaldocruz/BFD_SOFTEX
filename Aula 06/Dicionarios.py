@@ -16,6 +16,9 @@ for item in dicionario.items():
     print(dicionario)
 
 
-# instalar bm Python -m venv .vemvenv
+# instalar bm Python -m venv .venv
 
-# online 
+# online python.exe -m pip install --upgrade pip
+#python.exe -m django install --upgrade django
+#pip install djangocms-installer
+#pip list
