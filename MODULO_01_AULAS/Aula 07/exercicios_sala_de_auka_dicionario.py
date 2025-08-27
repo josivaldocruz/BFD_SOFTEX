@@ -63,7 +63,7 @@ print(usuario)
 capitais = {"SP": "São Paulo", "RJ": "Rio de Janeiro", "MG": "Belo Horizonte"}
 
 for capital, capit in capitais.items():
-        print(f"A capital de {capit} é {capit}")
+        print(f"A capital de {capital} é {capit}")
 
 #Dado o dicionário abaixo, atualize o valor da chave "estoque"
 # somando 10 unidades ao valor atual.
@@ -71,6 +71,6 @@ for capital, capit in capitais.items():
 produto = {"nome": "Teclado", "estoque": 15}
 
 v = 10
-for produto, somprod in produto.items():
-     if somprod == "estoque": somprod
-print(somprod + v)
+for produt, somprod in produto.items():
+     if produt == "estoque": somprod += v
+print(somprod)
