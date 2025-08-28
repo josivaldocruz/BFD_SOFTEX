@@ -1,2 +1,1 @@
-def nome_função():
-    codigo
+#def nome_função():
