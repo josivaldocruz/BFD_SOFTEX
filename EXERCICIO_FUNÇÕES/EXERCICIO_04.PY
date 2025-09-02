@@ -2,8 +2,8 @@
 #"Olá, [nome]!"
 #Caso o nome não seja informado, mostre "Olá, visitante!".
 
-def mensagem(nome = "Visitante"):
+#def mensagem(nome = "Visitante"):
 
-    return nome
+#    return nome
 
-print("Olá" nome)
+#print("Olá" nome)
