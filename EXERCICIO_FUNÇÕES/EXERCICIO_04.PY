@@ -1,9 +1,9 @@
-#Crie uma função chamada mensagem que receba um nome como parâmetro e exiba a mensagem:
-#"Olá, [nome]!"
-#Caso o nome não seja informado, mostre "Olá, visitante!".
+# Crie uma função chamada mensagem que receba um nome como parâmetro e exiba a mensagem:
+# "Olá, [nome]!"
+# Caso o nome não seja informado, mostre "Olá, visitante!".
 
-#def mensagem(nome = "Visitante"):
+def mensagem(nome="Visitante"):
+    return nome
 
-#    return nome
 
-#print("Olá" nome)
+print(f"olá, {mensagem()}")
