@@ -6,4 +6,5 @@ def dobro(num):
 
 valor = int(input())
 
+
 print(dobro(valor))

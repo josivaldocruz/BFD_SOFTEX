@@ -2,6 +2,7 @@
 #  "Olá, bem-vindo ao Python!". Em seguida, chame a função no programa.
 
 def saudacao():
-    return "Olá, bem-vindo ao Python!"
+   print("Olá, bem-vindo ao Python!")
+   return 
 
-print(saudacao())
+saudacao()

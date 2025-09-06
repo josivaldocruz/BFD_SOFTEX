@@ -3,7 +3,7 @@
 # Caso o nome não seja informado, mostre "Olá, visitante!".
 
 def mensagem(nome="Visitante"):
-    return nome
+    return print(f"olá, {nome}")
 
-
-print(f"olá, {mensagem()}")
+mensagem("josivaldo")
+mensagem()
