@@ -11,6 +11,3 @@ class Carro:
     def apresentar(self):
         print(f"Olá, meu nome é {self.nome} e tenho {self.idade} anos.")
     
-dados = Pessoa("João",25)
-
-dados.apresentar()
