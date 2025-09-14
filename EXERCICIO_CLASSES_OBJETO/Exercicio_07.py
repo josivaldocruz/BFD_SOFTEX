@@ -7,12 +7,14 @@ class Aluno:
     def __init__(self, nome, nota):
         self.nome = nome
         self.nota = nota
+
 class Turma:
     def __init__(self):
         self.lista = []
 
     def adicionar_aluno(self, aluno):
-        self.lista.append(aluno)        
+        self.lista.append(aluno)
+
 
 aluno1 = Aluno("Maria", 8)
 aluno2 = Aluno("João", 10)
