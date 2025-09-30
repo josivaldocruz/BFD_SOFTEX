@@ -1,5 +1,9 @@
-Reengenharia e Engenharia Reversa
+Engenharia de Sofware:
 
+* Reengenharia e Engenharia Reversa
+* Qualidade de Software
 
+Python
 
-s
+* Função Lambda
+* Map e Filter
