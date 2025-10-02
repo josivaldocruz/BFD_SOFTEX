@@ -54,26 +54,26 @@ class Pessoa(ABC):
     def comer(self):
         ...
 class Funcionario(Pessoa):
-    def falar(self):
-        print("O funcionário está falando.")
-    def andar(self):
-        print("O funcionário está andando.")
-    def comer(self):
-        print("O funcionário está comendo.")
+    def falar(self,nome="Funicionário"):
+        print(f"O {nome} está falando.")
+    def andar(self,nome="Funicionário"):
+        print(f"O {nome} está falando.")
+    def comer(self,nome="Funicionário"):
+        print(f"O {nome} está falando.")
 
 class Aluno(Pessoa):
-    def falar(self):
-        print("O Aluno está falando.")
-    def andar(self):
-        print("O Aluno está andando.")
-    def comer(self):
-        print("O Aluno está comendo.")
+    def falar(self, nome):
+        print(f"O {nome} está falando.")
+    def andar(self,nome):
+        print(f"O {nome} está andando.")
+    def comer(self,nome):
+        print(f"O {nome} está comendo.")
 
 funcionario1 = Funcionario()
-funcionario1.falar()
-funcionario1.andar()
+funcionario1.falar("pedro")
+funcionario1.andar("pedro")
 funcionario1.comer()
 aluno1 = Aluno()
-aluno1.falar()
-aluno1.andar()
-aluno1.comer()
+aluno1.falar("João")
+aluno1.andar("João")
+aluno1.comer("João")
