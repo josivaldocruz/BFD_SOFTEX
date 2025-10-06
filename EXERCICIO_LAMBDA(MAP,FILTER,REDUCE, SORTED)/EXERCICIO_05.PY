@@ -1,7 +1,7 @@
-#Usando reduce, some todos os números da lista [1, 2, 3, 4, 5].
-#Ordenação por comprimento da palavra (sorted + lambda)
+#Primeira letra maiúscula (map + lambda)
 
-from functools import reduce
-lista = [1,2,3,4,5]
-#falta terminar
+#Dada a lista ["ana", "pedro", "maria"], use map e lambda para transformar em ["Ana", "Pedro", "Maria"].
+
+lista = ["ana", "pedro", "maria"]
+print(list(map(lambda nome: nome.capitalize(), lista)))
 

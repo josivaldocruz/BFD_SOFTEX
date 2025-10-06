@@ -1,6 +1,5 @@
-#Dada a lista [1, 2, 3, 4, 5], use map com lambda para gerar uma nova lista com o dobro de cada número.
-# Filtrar pares (filter + lambda)
+#Dada a lista [10, 15, 20, 25, 30], use filter com lambda para obter apenas os números pares.
+#Soma dos números (reduce + lambda)
 
-
-lista = [1,2,3,4,5]
-print(list(filter(lambda num:num % 2 == 0, lista)))
+lista = [10, 15, 20, 25, 30]
+print(list(filter(lambda x: x % 2 == 0, lista)))

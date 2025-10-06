@@ -1,5 +1,8 @@
-#Dada a lista [10, 15, 20, 25, 30], use filter com lambda para obter apenas os números pares.
-#Soma dos números (reduce + lambda)
+#Ordenação por comprimento da palavra (sorted + lambda)
 
-lista = [10, 15, 20, 25, 30]
-print(list(filter(lambda x: x % 2 == 0, lista)))
+#Dada a lista ["uva", "banana", "maçã", "laranja"], ordene as palavras pelo tamanho usando sorted e lambda.
+
+lista = ["uva", "banana", "maçã", "laranja"]
+
+print(sorted(lista, key=lambda x: len(x)))
+
