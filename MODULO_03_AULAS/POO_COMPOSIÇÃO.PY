@@ -5,6 +5,6 @@ class Motor:
         print(f'Motor de {self.potencia} cavalos ligado')
 
 class Carro:
-    def __init__(self, modelo: str, pontencia_motor: Int):
+    def __init__(self, modelo: str, pontencia_motor: int):
         self.modelo = modelo
         self.motor = Motor(pontencia_motor)
