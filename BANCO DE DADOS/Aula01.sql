@@ -22,7 +22,7 @@ Usando SQlite
 -- where nota1 >= 7 and nota2 >=7
 -- ;
 
--- Select nome, nota1, nota2 from aluno
+--Select nome, nota1, nota2 from aluno
 
 -- order by asc ou desc
 
