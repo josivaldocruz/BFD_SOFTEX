@@ -11,4 +11,13 @@
 Select * from aluno;
 
 
+Select count(*) from aluno;
+Select Max(nota1) from aluno;
+Select Min(nota1) from aluno;
+Select Sum(nota2) from aluno;
+Select Avg(nota1) from aluno;
+
+
+SELECT nome FROM Aluno WHERE nome LIKE '%Feli%';
+
 
