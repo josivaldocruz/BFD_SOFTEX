@@ -29,12 +29,12 @@
 # print(id(salada_de_frutas))
 
 
-#copiar
+# copiar
 
-frutas = ["banana", "manga", "maça","jaca","jaca","jaca"]
-salada = ["morango","uva"]
+frutas = ["banana", "manga", "maça", "jaca", "jaca", "jaca"]
+salada = ["morango", "uva"]
 
-#salada = frutas[:]
+# salada = frutas[:]
 
 # print(id(salada))
 # print(id(frutas))
@@ -49,14 +49,14 @@ salada = ["morango","uva"]
 # print(id(frutas))
 
 
-#salada = frutas.copy
+# salada = frutas.copy
 
-#print(frutas.count("maça"))
+# print(frutas.count("maça"))
 
-#print(id(salada))
-#print(id(frutas))
+# print(id(salada))
+# print(id(frutas))
 
-#juntar a lista
+# juntar a lista
 salada.extend(frutas)
 
 print(frutas)
@@ -67,4 +67,3 @@ idx_jaca = frutas.index("jaca")
 del frutas[idx_jaca]
 
 print(frutas)
-

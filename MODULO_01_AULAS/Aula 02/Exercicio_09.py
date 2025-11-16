@@ -1,11 +1,11 @@
 # Área de um retângulo
 
-#Dados
+# Dados
 
 Entrada1 = float(input("Digite Largura: "))
 Entrada2 = float(input("Digite Altura: "))
 
-#Calculo
+# Calculo
 
 Multiplicacao = Entrada1 * Entrada2
 

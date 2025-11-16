@@ -5,6 +5,7 @@ try:
     valor = int(input("Digite um número\n"))
     valor2 = int(input("Digite outro número\n"))
 
-except: print("Favor Digite um número valido")
+except:
+    print("Favor Digite um número valido")
 else:
     print(f" {valor} * {valor2} é igual: {valor*valor2}")

@@ -1,16 +1,16 @@
-#contagem Crescente
+# contagem Crescente
 
 # for x in range(1,11):
 #           print(x)
 
-#Tabuada
+# Tabuada
 
 # tab = int(input("Digite um número de 1 a 10\n"))
-# for x in range(1,11): 
+# for x in range(1,11):
 #     y = tab * x
 #     print(f"{tab} x {x} = {y}")
 
-#Somatorio com While
+# Somatorio com While
 # varsoma = 0
 # while True:
 #     num1 = float(input("Digite um número para somar (0 Para finalizar): "))
@@ -20,7 +20,7 @@
 
 # print("\nSomatória dos números digitados:", varsoma)
 
-#Função de saudação
+# Função de saudação
 # nome = input("Digite seu nome aqui!")
 # print(f"Olá,{nome}!")
 
@@ -34,23 +34,28 @@
 
 # saudar(x)
 
-#Calculadora simples 
+# Calculadora simples
+
 
 # Funções de operações
 def somar(a, b):
     return a + b
 
+
 def subtrair(a, b):
     return a - b
 
+
 def multiplicar(a, b):
     return a * b
+
 
 def dividir(a, b):
     if b == 0:
         return "Erro: divisão por zero!"
     else:
-       return a / b
+        return a / b
+
 
 # Menu de escolha
 print("Calculadora Simples")

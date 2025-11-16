@@ -1,10 +1,10 @@
 # Idade em dias
 
-#Entrada
+# Entrada
 
 Entrada1 = int(input("Digite sua idade: "))
 
-#Calculo
+# Calculo
 
 Multiplicacao = Entrada1 * 365
 

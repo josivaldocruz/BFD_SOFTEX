@@ -14,10 +14,10 @@
 
 # else:
 #     print("é mentira")
-#-----------------------------------------------------------------------
+# -----------------------------------------------------------------------
 Idade = int(input("qual a sua idade: "))
 carteira = input("Tem carteira de motorista? (SIM/não): ")
-cachaca = input ("Ingeriu bebida alccolica? (SIM/não): ")
+cachaca = input("Ingeriu bebida alccolica? (SIM/não): ")
 
 if Idade >= 18 and carteira == "sim" and cachaca == "não":
     print("vc pode dirigir")

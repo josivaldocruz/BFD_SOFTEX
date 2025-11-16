@@ -24,7 +24,7 @@
 # num3 = int(input("\nDigite o Primeiro número "))
 # num4 = int(input("\nDigite o Segundo número "))
 
-# if num3 > num4: print("O maior número",num3) 
+# if num3 > num4: print("O maior número",num3)
 
 # elif num4 > num3: print("O maior número",num4)
 
@@ -38,5 +38,3 @@
 # elif num5 >= 13 and num5 <= 17: print("Adolescente")
 # elif num5 >= 18 and num5 <= 64: print("Adulto")
 # elif num5 >= 65: print("Idoso")
-
-

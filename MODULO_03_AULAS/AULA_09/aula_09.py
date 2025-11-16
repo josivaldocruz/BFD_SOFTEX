@@ -27,6 +27,7 @@ class VeiculoCreator(ABC):
         """Cada subclassa deve implementar este método para criar o produto certo"""
         pass
 
+
 # Subclasses concretas do Creator
 class CarroCreator(VeiculoCreator):
     def factory_method(self) -> Veiculo:
@@ -40,7 +41,9 @@ class MotoCreator(VeiculoCreator):
 
 # Código cliente (não precisa saber qual criador está sendo usado)
 def client_code(creator: VeiculoCreator):
-    print(f"Cliente: não sei qual criador estou usando, mas funciona.\n{creator.factory_method().dirigir()}")
+    print(
+        f"Cliente: não sei qual criador estou usando, mas funciona.\n{creator.factory_method().dirigir()}"
+    )
 
 
 # Execução principal

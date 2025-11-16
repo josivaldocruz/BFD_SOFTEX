@@ -1,4 +1,4 @@
-#tuple  não consegue fazer edição, tipo de lista não editavel e mais leve
+# tuple  não consegue fazer edição, tipo de lista não editavel e mais leve
 # virgula ou parentes
 # tuplas1 = 1,
 # tuplas1 = ()
@@ -21,4 +21,4 @@ print(type(teste))
 print(type(teste2))
 
 teste.intersection
-#intercect de duas listas ou tuple
+# intercect de duas listas ou tuple

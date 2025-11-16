@@ -2,6 +2,6 @@ nome = "josivaldo"
 y = len(nome)
 
 for x in range(y):
-         print(x)
+    print(x)
 
-#print(len(nome))
+# print(len(nome))

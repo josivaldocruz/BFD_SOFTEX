@@ -1,11 +1,11 @@
 # Desafio do troco
 
-#Dados
+# Dados
 
 Entrada1 = float(input("Digite o Valor da Compra: "))
 Entrada2 = float(input("Digite o Valor Pago: "))
 
-#Calculo
+# Calculo
 Subtracao = Entrada1 - Entrada2
 
 # Saída dos resultados

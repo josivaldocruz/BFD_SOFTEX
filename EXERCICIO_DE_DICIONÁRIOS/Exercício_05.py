@@ -4,4 +4,5 @@
 
 contato = {"nome": "Ana", "email": "ana@email.com"}
 
-if contato.get("telefone") == None: print("a chave: telefone não existe")
+if contato.get("telefone") == None:
+    print("a chave: telefone não existe")

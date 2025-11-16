@@ -1,11 +1,11 @@
 # Programa de Operações Basicas
 
-#Dados
+# Dados
 
 Entrada1 = float(input("Digite um numero: "))
 Entrada2 = float(input("Digite um numero: "))
 
-#Calculo
+# Calculo
 Soma = Entrada1 + Entrada2
 Subtracao = Entrada1 - Entrada2
 Multiplicacao = Entrada1 * Entrada2
@@ -22,4 +22,3 @@ print(f"Adição: {Soma}")
 print(f"Subtração: {Subtracao}")
 print(f"Multiplicação: {Multiplicacao}")
 print(f"Divisão: {Divisao}")
-

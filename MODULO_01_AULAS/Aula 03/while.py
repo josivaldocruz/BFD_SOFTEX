@@ -6,7 +6,6 @@
 #     print("Valor de x", x)
 
 
-
 while True:
     x = input("informe o número: ")
     if x == 0:

@@ -2,6 +2,7 @@
 # modelo e ano. Use o método __init__ para inicializar esses valores.
 # Crie três objetos e mostre suas informações.
 
+
 class Carro:
     def __init__(self, marca, modelo, ano):
         self.marca = marca

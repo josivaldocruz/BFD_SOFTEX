@@ -1,4 +1,4 @@
-#for
+# for
 
 alunos = ["fred", "joão", "maria", "jose"]
 
@@ -10,7 +10,7 @@ for aluno in alunos:
 
 # num = 0
 # while num < 10:
-    
+
 #     print("dentro do while", num)
 #     num+=1
 

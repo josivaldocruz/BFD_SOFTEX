@@ -27,24 +27,19 @@
 # print(armazem5)
 
 
-#4 crie uma lista com numeros e multiplique cada numero por 5
+# 4 crie uma lista com numeros e multiplique cada numero por 5
 
-num1 = [1,2,3,4,5,6,7,8]
+num1 = [1, 2, 3, 4, 5, 6, 7, 8]
 
 cont_num1 = len(num1)
 
 for x in range(cont_num1):
-    
+
     valor = num1[x]
-    
+
 
 print(valor)
 
 
-
-
-
-#5 pegue a lista a1 e gere uma nova lista apenas com os valores 4 e 5
-#[1,2,3,4,5,6,]   ====> [4,5]
-
-
+# 5 pegue a lista a1 e gere uma nova lista apenas com os valores 4 e 5
+# [1,2,3,4,5,6,]   ====> [4,5]

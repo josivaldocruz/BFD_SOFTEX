@@ -3,10 +3,12 @@
 # e um método adicionar_aluno(aluno). Crie alguns objetos
 # Aluno e adicione-os à turma.
 
+
 class Aluno:
     def __init__(self, nome, nota):
         self.nome = nome
         self.nota = nota
+
 
 class Turma:
     def __init__(self):

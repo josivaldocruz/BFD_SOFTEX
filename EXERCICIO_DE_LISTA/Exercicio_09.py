@@ -7,5 +7,3 @@ Somavalor = 0
 for valor in valores:
     Somavalor += valor
 print(f"Total de valores é {Somavalor} ")
-
-

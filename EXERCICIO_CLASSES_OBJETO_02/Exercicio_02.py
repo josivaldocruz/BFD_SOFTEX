@@ -6,7 +6,7 @@
 
 class Pessoa:
     def __init__(self, nome, data_de_nascimento, cpf, identidade):
-        self. nome = nome
+        self.nome = nome
         self.data_nascimento = data_de_nascimento
         self.__cpf = cpf
         self.__identidade = identidade
@@ -17,6 +17,7 @@ class Pessoa:
 
     def get_identidade(self):
         return self.__identidade
+
     # setters
 
     def set_cpf(self, valor):

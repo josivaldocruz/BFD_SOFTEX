@@ -7,7 +7,8 @@ try:
     abrirarquivo.read()
 
     abrirarquivo.close
-except:print("Arquivo não existe")
+except:
+    print("Arquivo não existe")
 
 finally:
     print("Encerrando programa")

@@ -1,12 +1,12 @@
-#imppotando a biblioteca sqlite3 SQlite com Python
+# imppotando a biblioteca sqlite3 SQlite com Python
 
 import sqlite3
 
 # instalar pip install mysql-connector-python / pip3 install mysql-connector-python
-#import mysql.connector
+# import mysql.connector
 
 conectar_Sqlite = sqlite3.connect("MODULO_03_AULAS/Banco_de_dados_Teste.db")
-#conectar_Sqlite = sqlite3.connect("MODULO_03_AULAS/BANCO_DE_DADOS/escola_v2.db")
+# conectar_Sqlite = sqlite3.connect("MODULO_03_AULAS/BANCO_DE_DADOS/escola_v2.db")
 
 cursor = conectar_Sqlite.cursor()
 
@@ -18,12 +18,11 @@ cursor = conectar_Sqlite.cursor()
 #     )
 # """)
 
-#cursor.execute("INSERT INTO usuarios (nome, idade) VALUES (?, ?)", ("João", 30))
+# cursor.execute("INSERT INTO usuarios (nome, idade) VALUES (?, ?)", ("João", 30))
 
 cursor.execute("Select * from usuarios")
 rows = cursor.fetchall()
 for row in rows:
     print(row)
 
-#conectar_Sqlite.closed()    
-
+# conectar_Sqlite.closed()

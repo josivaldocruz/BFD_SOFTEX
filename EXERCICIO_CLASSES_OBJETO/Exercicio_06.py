@@ -2,6 +2,7 @@
 # True se a operação for bem-sucedida e False caso contrário.
 # Teste o retorno e imprima mensagens adequadas.
 
+
 class ContaBancaria:
     def __init__(self, titular, saldo):
         self.titula = titular
@@ -24,7 +25,9 @@ valorsaque = 25
 
 if operacao.sacar(valorsaque) == True:
     print(
-        f"Saque de R$ {valorsaque} realizado com sucesso! saldo atual é de R$ {operacao.saldo} ")
+        f"Saque de R$ {valorsaque} realizado com sucesso! saldo atual é de R$ {operacao.saldo} "
+    )
 else:
     print(
-        f"Erro: saldo insuficiente para sacar R$ {valorsaque}, saldo atual é de R$ {operacao.saldo}.")
+        f"Erro: saldo insuficiente para sacar R$ {valorsaque}, saldo atual é de R$ {operacao.saldo}."
+    )

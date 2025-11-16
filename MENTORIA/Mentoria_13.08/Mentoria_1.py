@@ -1,4 +1,4 @@
-#verificar se é palavra
+# verificar se é palavra
 
 # var = "5"
 # print(var.isalpha())
@@ -14,12 +14,12 @@
 #     varsoma += float(num1)
 
 # print("\nSomatória dos números digitados:", varsoma)
-#lista
+# lista
 # frutas = ["banana","Laranja","Pera"]
 # for fruta in frutas:
 #     print(fruta)
 
-frutas = ["banana","Laranja","Pera"]
+frutas = ["banana", "Laranja", "Pera"]
 
 for x in range(len(frutas)):
     print(x)
