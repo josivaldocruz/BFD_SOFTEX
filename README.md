@@ -129,3 +129,26 @@ Publicando uma postagem
 post = Post.objects.filter(title__contains='ORM')
 
 post.publish()
+
+
+source .Projeto_django_site_pessoal/bin/activate
+python manage.py runserver
+
+Comando do python para acessar banco de dados
+ORM django
+python manage.py shell
+
+Comando para acessar banco de dados
+Post.objects.all()
+Post.object.create()
+
+Criar variavel para usar dentro do Shell
+jo = User.objects.get(username="josivaldo")
+Post.objects.create(author=jo, title="Testando ORM", text="Vamos testar o ORM do Django!!!")
+Post.objects.order_by('create_date)
+
+Post.objects.order_by('created_date')
+
+site para criar pagina
+https://getbootstrap.com/
+https://fonts.google.com/

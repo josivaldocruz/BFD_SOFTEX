@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 
 <html lang="en">
@@ -6,15 +7,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog do Josivaldo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'blog.css' %}"> 
 </head>
 
 <body>
     <h1>Blog de Postagem Pessoal Josivaldo</h1>
-    <p>Esse Blog é Pessoal</p>
+    <p>Esse é um Blog de Teste</p>
 
-        {posts}
+        {% for post in posts_list %}
+
+            <article>
+                <h2>{{ post.title }}</h2>
+                <p>{{ post.text|linebreaks }}</p>
+                <p><em>Publicado em: {{ post.published_date }}</em></p>
+                <h2><a href=""></a></h2>
+
+            </article>
+
+        {% endfor %}
+
+        {{posts_list}}
 
 </body>
-
-
 </html>
+
